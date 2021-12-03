@@ -8,7 +8,7 @@ epsilon = []
 results = []
 
 while control < counter:
-    with open('C:\projects\Advent_of_code\Day_Three\input.txt') as f:
+    with open('input.txt') as f:
         file = f.readlines()
         for line in file:
             if control <= 11:

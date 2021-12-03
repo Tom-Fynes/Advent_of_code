@@ -7,7 +7,7 @@ Horazontal = 0
 Depth = 0
 aim = 0
 
-with open('C:\projects\Advent_of_code\Day_Two\input.txt') as f:
+with open('input.txt') as f:
     file = f.readlines()
     for line in file:
         values  = line.split(' ')
